@@ -1,0 +1,26 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"3024 Color Scheme",
+		"A File Icon",
+		"AdvancedNewFile",
+		"AngularJS",
+		"Babel",
+		"Babel Snippets",
+		"Boxy Theme",
+		"Colorsublime",
+		"Compare Side-By-Side",
+		"Emmet",
+		"FileDiffs",
+		"GitGutter",
+		"HTML-CSS-JS Prettify",
+		"Package Control",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
+		"TypeScript"
+	]
+}
