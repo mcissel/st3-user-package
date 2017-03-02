@@ -1,31 +1,36 @@
 {
-	"auto_match_enabled": false,
-	"color_scheme": "Packages/User/SublimeLinter/Dark-Dracula (SL).tmTheme",
-
-  // Spacing between the gutter and the text
-  "margin": -10,
-
-  "folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", "node_modules", ".meteor"],
-
-	"font_size": 11,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
+	"margin": -2,
+  "auto_complete_cycle": true,
+  "auto_match_enabled": false,
+  "bold_folder_labels": true,
+  "caret_style": "phase",
+  "color_scheme": "Packages/User/SublimeLinter/Dark-Dracula (SL).tmTheme",
+  "fade_fold_buttons": false,
+  "folder_exclude_patterns":
+  [
+    ".svn",
+    ".git",
+    ".hg",
+    "CVS",
+    "node_modules",
+    ".meteor"
+  ],
+  "font_size": 11,
+  "highlight_line": true,
+  "highlight_modified_tabs": true,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "line_padding_bottom": 1,
+  "line_padding_top": 1,
 	"rulers":
 	[
 		80,
 		120
 	],
+	"shift_tab_unindent": true,
 	"tab_size": 2,
-  // Set to true to insert spaces when tab is pressed
-  "translate_tabs_to_spaces": true,
-  "shift_tab_unindent": true,
-  "auto_complete_cycle": true,
-  // Makes tabs with modified files more visible
-  "highlight_modified_tabs": true,
-  // Show folders in the side bar in bold
-  "bold_folder_labels": true,
 	"theme": "Boxy Tomorrow.sublime-theme",
 	"theme_accent_numix": true,
 	"theme_autocomplete_item_selected_colored": true,
