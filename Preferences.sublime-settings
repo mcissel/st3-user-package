@@ -1,6 +1,12 @@
 {
 	"auto_match_enabled": false,
 	"color_scheme": "Packages/User/SublimeLinter/Dark-Dracula (SL).tmTheme",
+
+  // Spacing between the gutter and the text
+  "margin": -10,
+
+  "folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", "node_modules", ".meteor"],
+
 	"font_size": 11,
 	"ignored_packages":
 	[
@@ -12,6 +18,14 @@
 		120
 	],
 	"tab_size": 2,
+  // Set to true to insert spaces when tab is pressed
+  "translate_tabs_to_spaces": true,
+  "shift_tab_unindent": true,
+  "auto_complete_cycle": true,
+  // Makes tabs with modified files more visible
+  "highlight_modified_tabs": true,
+  // Show folders in the side bar in bold
+  "bold_folder_labels": true,
 	"theme": "Boxy Tomorrow.sublime-theme",
 	"theme_accent_numix": true,
 	"theme_autocomplete_item_selected_colored": true,
