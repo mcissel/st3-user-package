@@ -1,12 +1,15 @@
 {
-  // Controls auto pairing of quotes, brackets etc
-  "auto_match_enabled": true,
-
+	"auto_match_enabled": false,
 	"color_scheme": "Packages/User/SublimeLinter/Dark-Dracula (SL).tmTheme",
 	"font_size": 11,
 	"ignored_packages":
 	[
 		"Vintage"
+	],
+	"rulers":
+	[
+		80,
+		120
 	],
 	"tab_size": 2,
 	"theme": "Boxy Tomorrow.sublime-theme",
