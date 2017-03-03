@@ -1,29 +1,29 @@
 {
+	"auto_complete_cycle": true,
+	"auto_match_enabled": false,
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"color_scheme": "Packages/User/SublimeLinter/Dark-Dracula (SL).tmTheme",
+	"fade_fold_buttons": false,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"node_modules",
+		".meteor"
+	],
+	"font_size": 11,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
 	"margin": -2,
-  "auto_complete_cycle": true,
-  "auto_match_enabled": false,
-  "bold_folder_labels": true,
-  "caret_style": "phase",
-  "color_scheme": "Packages/User/SublimeLinter/Dark-Dracula (SL).tmTheme",
-  "fade_fold_buttons": false,
-  "folder_exclude_patterns":
-  [
-    ".svn",
-    ".git",
-    ".hg",
-    "CVS",
-    "node_modules",
-    ".meteor"
-  ],
-  "font_size": 11,
-  "highlight_line": true,
-  "highlight_modified_tabs": true,
-  "ignored_packages":
-  [
-    "Vintage"
-  ],
-  "line_padding_bottom": 1,
-  "line_padding_top": 1,
 	"rulers":
 	[
 		80,
@@ -38,13 +38,15 @@
 	"theme_find_panel_font_xs": true,
 	"theme_find_panel_size_xxs": true,
 	"theme_icon_button_highlighted": true,
+	"theme_panel_switcher_materialized": true,
 	"theme_popup_border_visible": true,
 	"theme_scrollbar_rounded": true,
-	"theme_sidebar_font_lg": true,
+	"theme_sidebar_folder_arrow": true,
+	"theme_sidebar_font_sm": true,
+	"theme_sidebar_heading_bold": true,
 	"theme_sidebar_indent_md": true,
 	"theme_sidebar_indent_top_level_disabled": true,
 	"theme_sidebar_size_xxs": true,
-	"theme_statusbar_colored": true,
 	"theme_statusbar_font_lg": true,
 	"theme_statusbar_size_xs": true,
 	"theme_tab_arrows_hidden": true,

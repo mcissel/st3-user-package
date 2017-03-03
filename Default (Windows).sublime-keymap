@@ -3,8 +3,9 @@
   { "keys": ["ctrl+shift+l"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
 	{ "keys": ["ctrl+alt+l"], "command": "split_selection_into_lines" },
 	{ "keys": ["ctrl+shift+w"], "command": "close_all" },
+  { "keys": ["ctrl+alt+d"], "command": "find_all_under" },
 	{ "keys": ["ctrl+'"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
-  {"keys": ["tab"], "command": "expand_abbreviation_by_tab", "context":
+  { "keys": ["tab"], "command": "expand_abbreviation_by_tab", "context":
     [
       { "operand": "source.js", "operator": "equal", "match_all": true, "key": "selector" },
       { "match_all": true, "key": "selection_empty" },
