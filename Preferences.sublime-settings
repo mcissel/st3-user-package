@@ -1,6 +1,6 @@
 {
 	"auto_complete_cycle": true,
-	"auto_match_enabled": false,
+	"auto_match_enabled": true,
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"color_scheme": "Packages/User/SublimeLinter/Dark-Dracula (SL).tmTheme",
