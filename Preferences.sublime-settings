@@ -10,9 +10,7 @@
 		".svn",
 		".git",
 		".hg",
-		"CVS",
-		"node_modules",
-		".meteor"
+		"CVS"
 	],
 	"font_size": 11,
 	"highlight_line": true,
@@ -42,7 +40,7 @@
 	"theme_popup_border_visible": true,
 	"theme_scrollbar_rounded": true,
 	"theme_sidebar_folder_arrow": true,
-	"theme_sidebar_font_sm": true,
+	"theme_sidebar_font_md": true,
 	"theme_sidebar_heading_bold": true,
 	"theme_sidebar_indent_md": true,
 	"theme_sidebar_indent_top_level_disabled": true,

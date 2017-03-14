@@ -18,8 +18,11 @@
 		"GitGutter",
 		"HTML-CSS-JS Prettify",
 		"Package Control",
+		"Paste as Column",
+		"Sass",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
+		"Text Pastry",
 		"TypeScript",
 		"Vintageous"
 	]
