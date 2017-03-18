@@ -15,5 +15,7 @@
       { "operand": false, "operator": "equal", "match_all": true, "key": "auto_complete_visible" },
       { "match_all": true, "key": "is_abbreviation" }
     ]
-  }
+  },
+  { "keys": ["ctrl+alt+n"], "command": "advanced_new_file_new"},
+  { "keys": ["ctrl+alt+p"], "command": "text_pastry_show_command_line", "args": { "text": "" } }
 ]
