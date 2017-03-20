@@ -7,14 +7,6 @@
 	{ "keys": ["ctrl+'"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
   { "keys": ["ctrl+shift+o"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
   { "keys": ["ctrl+r"], "command": "noop" },
-  { "keys": ["tab"], "command": "expand_abbreviation_by_tab", "context":
-    [
-      { "operand": "source.js", "operator": "equal", "match_all": true, "key": "selector" },
-      { "match_all": true, "key": "selection_empty" },
-      { "operator": "equal", "operand": false, "match_all": true, "key": "has_next_field" },
-      { "match_all": true, "key": "is_abbreviation" }
-    ]
-  },
   { "keys": ["ctrl+alt+n"], "command": "advanced_new_file_new"},
   { "keys": ["ctrl+alt+p"], "command": "text_pastry_show_command_line", "args": { "text": "" } }
 ]
