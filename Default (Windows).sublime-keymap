@@ -9,5 +9,16 @@
   { "keys": ["ctrl+r"], "command": "noop" },
   { "keys": ["ctrl+alt+n"], "command": "advanced_new_file_new"},
   { "keys": ["ctrl+alt+p"], "command": "text_pastry_show_command_line", "args": { "text": "" } },
-  { "keys": ["shift+f2"], "command": "rename_file", "args": { "paths": ["$file"] } }
+  { "keys": ["shift+f2"], "command": "rename_file", "args": { "paths": ["$file"] } },
+  
+  { "keys": ["ctrl+shift+r"], "command": "reveal_in_side_bar"},
+
+  { "keys": ["shift+space"], "command": "auto_complete" },
+  { "keys": ["shift+space"], "command": "replace_completion_with_auto_complete", "context":
+    [
+      { "key": "last_command", "operator": "equal", "operand": "insert_best_completion" },
+      { "key": "auto_complete_visible", "operator": "equal", "operand": false },
+      { "key": "setting.tab_completion", "operator": "equal", "operand": true }
+    ]
+  },
 ]
