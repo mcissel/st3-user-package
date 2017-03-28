@@ -17,11 +17,13 @@
 		"FileDiffs",
 		"GitGutter",
 		"HTML-CSS-JS Prettify",
+		"ImportJS",
 		"Package Control",
 		"Paste as Column",
 		"Sass",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
+		"SyncedSideBar",
 		"Text Pastry",
 		"TypeScript",
 		"Vintageous"
