@@ -36,7 +36,8 @@
 		".hg",
 		"CVS",
 		".meteor/local",
-		"node_modules"
+		"node_modules",
+		".idea"
 	],
 	"font_face": "Ubuntu Flott",
 	"font_size": 10,
@@ -44,7 +45,6 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"SublimeCodeIntel",
 		"Vintage"
 	],
 	"line_padding_bottom": 1,

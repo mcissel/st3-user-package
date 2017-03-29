@@ -2,13 +2,13 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"SublimeCodeIntel"
 	],
 	"installed_packages":
 	[
 		"3024 Color Scheme",
 		"A File Icon",
 		"AdvancedNewFile",
+		"All Autocomplete",
 		"Babel",
 		"Babel Snippets",
 		"Boxy Theme",
