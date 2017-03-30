@@ -22,6 +22,8 @@
 		"*.suo",
 		"*.pdb",
 		"*.idb",
+		"*.pdn",
+		"*.otf",
 		".DS_Store",
 		"*.class",
 		"*.psd",
