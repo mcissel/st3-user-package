@@ -12,6 +12,7 @@
 		"Babel",
 		"Babel Snippets",
 		"Boxy Theme",
+		"ColorSchemeEditor",
 		"Colorsublime",
 		"Compare Side-By-Side",
 		"Emmet",
@@ -24,6 +25,7 @@
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
 		"Text Pastry",
+		"TrailingSpaces",
 		"TypeScript",
 		"Vintageous"
 	]
