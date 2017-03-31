@@ -33,5 +33,18 @@
     "context": [{"key": "emmet_action_enabled.split_join_tag"}]
   },
 
-  { "keys": ["ctrl+j", "ctrl+s"], "command": "delete_trailing_spaces" },
+  {"keys": ["ctrl+j", "ctrl+s"], "command": "delete_trailing_spaces" },
+
+  {"keys": ["ctrl+/"],
+    "command": "run_macro_file",
+    "args": {"file": "res://Packages/User/jsx-comment-lines.sublime-macro"},
+    "context": [
+      {
+        "key": "selector",
+        "operator": "equal",
+        "operand": "meta.jsx.js, meta.group.braces.round.js",
+        "match_all": true
+        }
+      ],
+  },
 ]

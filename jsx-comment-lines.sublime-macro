@@ -1,0 +1,61 @@
+[
+	{
+		"args": null,
+		"command": "split_selection_into_lines"
+	},
+	{
+		"args":
+		{
+			"mode": "mode_visual"
+		},
+		"command": "_enter_normal_mode"
+	},
+	{
+		"args":
+		{
+			"count": 1,
+			"mode": "mode_normal"
+		},
+		"command": "_vi_zero"
+	},
+	{
+		"args":
+		{
+			"contents": "{$0}"
+		},
+		"command": "insert_snippet"
+	},
+	{
+		"args": null,
+		"command": "right_delete"
+	},
+	{
+		"args":
+		{
+			"characters": "/*"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"extend": false,
+			"to": "eol"
+		},
+		"command": "move_to"
+	},
+	{
+		"args":
+		{
+			"characters": " "
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "*/}"
+		},
+		"command": "insert"
+	}
+]
