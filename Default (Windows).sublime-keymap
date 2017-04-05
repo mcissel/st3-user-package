@@ -27,24 +27,16 @@
   { "keys": ["alt+h"], "command": "focus_neighboring_group" },
   { "keys": ["alt+l"], "command": "focus_neighboring_group", "args": {"forward": false} },
 
-  {"keys": ["ctrl+shift+j"],
+  { "keys": ["ctrl+shift+j"],
     "args": {"action": "split_join_tag"},
     "command": "run_emmet_action",
     "context": [{"key": "emmet_action_enabled.split_join_tag"}]
   },
 
-  {"keys": ["ctrl+j", "ctrl+t"], "command": "delete_trailing_spaces" },
+  { "keys": ["ctrl+shift+k", "ctrl+shift+t"], "command": "delete_trailing_spaces" },
 
-  {"keys": ["ctrl+/"],
-    "command": "run_macro_file",
-    "args": {"file": "res://Packages/User/jsx-comment-lines.sublime-macro"},
-    "context": [
-      {
-        "key": "selector",
-        "operator": "equal",
-        "operand": "meta.jsx.js, meta.embedded.expression.js",
-        "match_all": true
-        }
-      ],
+  {
+      "keys": ["f2"],
+      "command": "side_bar_rename"
   },
 ]
