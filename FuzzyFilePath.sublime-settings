@@ -6,7 +6,7 @@
       "scope": "\\.js",
       "extensions": ["js"],
       "auto": true,
-      "prefix": ["from"],
+      "prefix": ["import", "from"],
       "relative": false,
 
       "replace_on_insert": [
