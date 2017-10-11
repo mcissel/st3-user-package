@@ -1,0 +1,11 @@
+{
+  "all":
+  {
+    "indent_size": 2,
+    "max_preserve_newlines": 1
+  },
+  "html":
+  {
+    "indent_handlebars": true,
+  }
+}

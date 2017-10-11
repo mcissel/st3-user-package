@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[
+console.log(`%c${1:this}`, 'background:${2:pink};');
+]]></content>
+  <tabTrigger>cconl</tabTrigger>
+</snippet>

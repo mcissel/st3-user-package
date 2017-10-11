@@ -3,7 +3,7 @@
 	"auto_match_enabled": true,
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Colorsublime-Themes/Monocyanide ColorScheme - Constrasted Light.tmTheme",
+	"color_scheme": "Packages/User/Monocyanide ColorScheme - Constrasted Light.tmTheme",
 	"fade_fold_buttons": false,
 	"file_exclude_patterns":
 	[
@@ -41,15 +41,16 @@
 		"node_modules",
 		".idea"
 	],
-	"font_face": "Ubuntu Flott",
-	"font_size": 11,
+	"font_face": "Operator Mono",
+	"font_size": 14,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"ColorSchemeEditor",
 		"Vintage"
 	],
-	"line_padding_bottom": 1,
+	"line_padding_bottom": 0,
 	"line_padding_top": 1,
 	"margin": -2,
 	"rulers":
@@ -59,7 +60,7 @@
 	],
 	"shift_tab_unindent": true,
 	"tab_size": 2,
-	"theme": "Boxy Tomorrow.sublime-theme",
+	"theme": "Boxy Monokai.sublime-theme",
 	"theme_accent_numix": true,
 	"theme_autocomplete_item_selected_colored": true,
 	"theme_dropdown_atomized": true,

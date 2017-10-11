@@ -20,6 +20,33 @@
 			{
 				"args":
 				{
+					"text": "filter ",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "filter "
+			},
+			"key": "acd97ef12c7efb64dcb70cb797baa50d",
+			"label": "filter "
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "i110"
+				},
+				"command": "text_pastry_step",
+				"text": "i110"
+			},
+			"key": "4ff1cbf5481997b8226adb0c90d3e164",
+			"label": "i110"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
 					"text": "1"
 				},
 				"command": "text_pastry_step",
@@ -27,15 +54,41 @@
 			},
 			"key": "1bd7ee1ce72751da4e64129f6d32db41",
 			"label": "\\i"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "i 1 1 3"
+				},
+				"command": "text_pastry_step",
+				"text": "i 1 1 3"
+			},
+			"key": "9bd9d16edc99cf5b7549185d21faa754",
+			"label": "i 1 1 3"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "i 0 100"
+				},
+				"command": "text_pastry_step",
+				"text": "i 0 100"
+			},
+			"key": "6446e8d908535f6074658af58ccad901",
+			"label": "i 0 100"
 		}
 	],
 	"last_command":
 	{
 		"args":
 		{
-			"text": "1"
+			"text": "i 0 100"
 		},
 		"command": "text_pastry_step",
-		"text": "\\i"
+		"text": "i 0 100"
 	}
 }
