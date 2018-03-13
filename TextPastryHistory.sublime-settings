@@ -80,15 +80,30 @@
 			},
 			"key": "6446e8d908535f6074658af58ccad901",
 			"label": "i 0 100"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "ProductQueryHandler.js",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "ProductQueryHandler.js"
+			},
+			"key": "84b3ee59f227be704391d5e235c73a79",
+			"label": "ProductQueryHandler.js"
 		}
 	],
 	"last_command":
 	{
 		"args":
 		{
-			"text": "i 0 100"
+			"text": "ProductQueryHandler.js",
+			"threshold": 3
 		},
-		"command": "text_pastry_step",
-		"text": "i 0 100"
+		"command": "text_pastry_insert_text",
+		"text": "ProductQueryHandler.js"
 	}
 }

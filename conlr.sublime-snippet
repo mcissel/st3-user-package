@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[
+console.log(`%c${1:this}`, 'color: #BBB; background: #F40;');
+]]></content>
+  <tabTrigger>rconl</tabTrigger>
+</snippet>
