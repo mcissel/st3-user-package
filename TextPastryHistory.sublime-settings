@@ -47,19 +47,6 @@
 			{
 				"args":
 				{
-					"text": "1"
-				},
-				"command": "text_pastry_step",
-				"text": "\\i"
-			},
-			"key": "1bd7ee1ce72751da4e64129f6d32db41",
-			"label": "\\i"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"text": "i 1 1 3"
 				},
 				"command": "text_pastry_step",
@@ -94,16 +81,28 @@
 			},
 			"key": "84b3ee59f227be704391d5e235c73a79",
 			"label": "ProductQueryHandler.js"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1"
+				},
+				"command": "text_pastry_step",
+				"text": "\\i"
+			},
+			"key": "1bd7ee1ce72751da4e64129f6d32db41",
+			"label": "\\i"
 		}
 	],
 	"last_command":
 	{
 		"args":
 		{
-			"text": "ProductQueryHandler.js",
-			"threshold": 3
+			"text": "1"
 		},
-		"command": "text_pastry_insert_text",
-		"text": "ProductQueryHandler.js"
+		"command": "text_pastry_step",
+		"text": "\\i"
 	}
 }

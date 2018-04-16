@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-console.log(`%c${1:this}`, 'background:#222; color:#bada55;');
+console.log(`%c${1:this}`, 'background:#bada55; color:#222;');
 ]]></content>
   <tabTrigger>gconl</tabTrigger>
 </snippet>
