@@ -94,6 +94,19 @@
 			},
 			"key": "1bd7ee1ce72751da4e64129f6d32db41",
 			"label": "\\i"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1"
+				},
+				"command": "text_pastry_step",
+				"text": "i"
+			},
+			"key": "865c0c0b4ab0e063e5caa3387c1a8741",
+			"label": "i"
 		}
 	],
 	"last_command":
@@ -103,6 +116,6 @@
 			"text": "1"
 		},
 		"command": "text_pastry_step",
-		"text": "\\i"
+		"text": "i"
 	}
 }
