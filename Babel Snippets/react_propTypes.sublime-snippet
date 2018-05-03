@@ -1,8 +1,9 @@
 <snippet>
     <content><![CDATA[
-propTypes: {
-	${1}: PropTypes.${2:string}
-},
+${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}.PropTypes = {
+	${2}: PropTypes.${3:string},
+  ${4}
+};
 ]]></content>
     <tabTrigger>pt</tabTrigger>
     <scope>source.js</scope>
