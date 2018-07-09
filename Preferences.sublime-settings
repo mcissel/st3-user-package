@@ -29,7 +29,6 @@
 		"*.psd",
 		"*.db",
 		"*.sublime-workspace",
-		"*.sublime-project",
 		"*tests.js"
 	],
 	"folder_exclude_patterns":
@@ -43,12 +42,13 @@
 		".idea"
 	],
 	"font_face": "Operator Mono",
-	"font_size": 13,
+	"font_size": 12,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"ColorSchemeEditor",
+		"SCSS",
 		"Vintage"
 	],
 	"line_padding_bottom": 0,
@@ -75,7 +75,6 @@
 	"theme_sidebar_font_md": true,
 	"theme_sidebar_heading_bold": true,
 	"theme_sidebar_indent_md": true,
-	"theme_sidebar_indent_top_level_disabled": true,
 	"theme_sidebar_size_xxs": true,
 	"theme_statusbar_font_lg": true,
 	"theme_statusbar_size_xs": true,

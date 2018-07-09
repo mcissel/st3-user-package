@@ -51,4 +51,70 @@
   },
   { "keys": ["super+shift+k", "super+shift+f"], "command": "eslint_auto_fix" },
   { "keys": ["super+shift+k", "super+shift+i"], "command": "ffp_update_cache" },
+
+  {
+    "keys": ["ctrl+alt+s"],
+    "command": "shell_command",
+    "args": {
+      "command": "rcMinimalStateless ${component::ComponentName}",
+      "wait_for_completion": true,
+      "panel": true
+    }
+  },
+  {
+    "keys": ["ctrl+alt+shift+s"],
+    "command": "shell_command",
+    "args": {
+      "command": "rcFullStateless ${component::ComponentName}",
+      "wait_for_completion": true,
+      "panel": true
+    }
+  },
+  {
+    "keys": ["ctrl+alt+c"],
+    "command": "shell_command",
+    "args": {
+      "command": "rcMinimalComponent ${component::ComponentName}",
+      "wait_for_completion": true,
+      "panel": true
+    }
+  },
+  {
+    "keys": ["ctrl+alt+shift+c"],
+    "command": "shell_command",
+    "args": {
+      "command": "rcFullComponent ${component::ComponentName}",
+      "wait_for_completion": true,
+      "panel": true
+    }
+  },
+  {
+    "keys": ["ctrl+alt+r"],
+    "command": "shell_command",
+    "args": {
+      "command": "rcMinimalRedux ${component::ComponentName}",
+      "wait_for_completion": true,
+      "panel": true
+    }
+  },
+  {
+    "keys": ["ctrl+alt+shift+r"],
+    "command": "shell_command",
+    "args": {
+      "command": "rcFullRedux ${component::ComponentName}",
+      "wait_for_completion": true,
+      "panel": true
+    }
+  },
+
+  {
+    "keys": ["super+alt+shift+2"],
+    "command": "set_layout",
+    "args":
+    {
+      "cols": [0.0, 0.66, 1.0],
+      "rows": [0.0, 1.0],
+      "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+    }
+  }
 ]

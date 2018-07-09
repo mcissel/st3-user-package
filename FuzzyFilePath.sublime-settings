@@ -1,9 +1,11 @@
 {
+  "base_directory": "src/",
   "log": true,
   "exclude_folders": ["node_modules", "bower_components"],
   "scopes": [
     {
       "scope": "\\.js",
+      "base_directory": true,
       "extensions": ["js"],
       "auto": true,
       "prefix": ["import", "from"],
@@ -11,8 +13,9 @@
 
       "replace_on_insert": [
         ["\\.js$", ""],           // after insertion, remove .js from path
+        ["/src/", ""],
         ["([^.])\\/index$", "\\1"],     // nodejs will load index.js by default => also remove index
       ],
     }
-  ] 
+  ]
 }

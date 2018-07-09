@@ -1,8 +1,7 @@
 {
 	"extensions":
 	[
-		"jsx",
-		"one",
-		"js"
+		"scss.erb",
+		"scss"
 	]
 }

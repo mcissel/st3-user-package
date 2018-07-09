@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-@media screen and (min-width: ${1:\$medium}) {
+@media screen and (min-width: ${1:\$tablet}) {
   ${2}
 }
 ]]></content>

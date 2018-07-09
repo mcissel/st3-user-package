@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+static getDerivedStateFromProps(nextProps, prevState) {
+	${0}
+}
+]]></content>
+    <tabTrigger>getd</tabTrigger>
+    <scope>source.js</scope>
+    <description>React: getDerivedStateFromProps() {…}</description>
+</snippet>
