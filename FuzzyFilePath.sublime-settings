@@ -1,5 +1,5 @@
 {
-  "base_directory": "src/",
+  "base_directory": "imports/",
   "log": true,
   "exclude_folders": ["node_modules", "bower_components"],
   "scopes": [
@@ -16,6 +16,22 @@
         ["/src/", ""],
         ["([^.])\\/index$", "\\1"],     // nodejs will load index.js by default => also remove index
       ],
+    },
+    /*
+      CSS
+     */
+    {
+      // import ""
+      "scope": "source\\.(css|sass|scss)",
+
+      "auto": true,
+      "prefix": ["import"],
+      "relative": true,
+      "extensions": ["css", "scss", "less"],
+      "replace_on_insert": [
+        ["\\.(css|scss)$", ""],
+        ["^(\\/.+)?\\/(bower_components|node_modules)\\/", ""]
+      ]
     }
   ]
 }
