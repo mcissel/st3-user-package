@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+@media screen and (max-width: ${1:\$tablet} - 1) {
+  ${2}
+}
+]]></content>
+  <tabTrigger>medmax</tabTrigger>
+</snippet>
