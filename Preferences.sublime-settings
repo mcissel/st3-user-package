@@ -49,7 +49,8 @@
 	[
 		"ColorSchemeEditor",
 		"SCSS",
-		"Vintage"
+		"Vintage",
+		"has-prefix"
 	],
 	"line_padding_bottom": 0,
 	"line_padding_top": 1,
@@ -85,5 +86,10 @@
 	"theme_tab_width_auto": true,
 	"theme_unified": true,
 	"translate_tabs_to_spaces": true,
-	"vintageous_use_ctrl_keys": true
+	"vintageous_use_ctrl_keys": true,
+	"//": ["lol"],
+
+  // Set to true to removing trailing white space on save
+  "trim_trailing_white_space_on_save": true
+
 }
