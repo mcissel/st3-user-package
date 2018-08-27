@@ -3,7 +3,6 @@
   { "keys": ["super+shift+l"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
   { "keys": ["shift+option+l"], "command": "split_selection_into_lines" },
   { "keys": ["super+shift+w"], "command": "close_all" },
-  { "keys": ["super+option+d"], "command": "find_all_under" },
   { "keys": ["super+'"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
   { "keys": ["super+shift+o"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
   { "keys": ["super+r"], "command": "noop" },

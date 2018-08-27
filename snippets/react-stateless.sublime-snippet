@@ -1,26 +1,26 @@
 <snippet>
   <content><![CDATA[
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from 'react'
+import PropTypes from 'prop-types'
 
-import styles from './${1}.module.scss';
+import styles from './${1}.module.scss'
 
 
 const ${1:${TM_FILENAME/(.+)\..+/$1/}} = ({ $2 }) => (
   <div>
   </div>
-);
+)
 
 ${1}.defaultProps = {
 
-};
+}
 
 ${1}.propTypes = {
   /** Docgen prop description */
 
-};
+}
 
-export default $1;
+export default $1
 
 ]]></content>
   <tabTrigger>reactstateless</tabTrigger>

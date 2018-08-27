@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-import ${1} from '${2:/imports/}';
+import ${1} from '${2:/imports/}'
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>imp</tabTrigger>

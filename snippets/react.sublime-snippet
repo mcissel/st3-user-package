@@ -1,13 +1,13 @@
 <snippet>
   <content><![CDATA[
-import React from 'react';
+import React from 'react'
 
-import styles from './$1.module.scss';
+import styles from './$1.module.scss'
 
 
 class ${1:${TM_FILENAME/(.+)\..+/$1/}} extends React.Component {
   constructor(props) {
-    super(props);
+    super(props)
   }
 
   componentDidMount() {
@@ -19,15 +19,15 @@ class ${1:${TM_FILENAME/(.+)\..+/$1/}} extends React.Component {
   }
 
   render() {
-    const {  } = this.props;
+    const {  } = this.props
     return (
       <div className={styles.$1}>
       </div>
-    );
+    )
   }
 }
 
-export default $1;
+export default $1
 
 ]]></content>
   <tabTrigger>react</tabTrigger>

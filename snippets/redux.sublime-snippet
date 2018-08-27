@@ -1,12 +1,12 @@
 <snippet>
   <content><![CDATA[
-import React from 'react';
-import { connect } from 'react-redux';
+import React from 'react'
+import { connect } from 'react-redux'
 
 
 class ${1:${TM_FILENAME/(.+)\..+/$1/}} extends React.Component {
   constructor(props) {
-    super(props);
+    super(props)
   }
 
   componentDidMount() {
@@ -18,19 +18,19 @@ class ${1:${TM_FILENAME/(.+)\..+/$1/}} extends React.Component {
   }
 
   render() {
-    const {  } = this.props;
+    const {  } = this.props
     return (
       <div>
       </div>
-    );
+    )
   }
 }
 
 const mapStateToProps = state => ({
   ${2}: state.$2,
-});
+})
 
-export default connect(mapStateToProps)($1);
+export default connect(mapStateToProps)($1)
 
 ]]></content>
   <tabTrigger>redux</tabTrigger>

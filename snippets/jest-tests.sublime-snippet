@@ -1,17 +1,17 @@
 <snippet>
   <content><![CDATA[
-import React from 'react';
+import React from 'react'
 import { mount, configure } from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
+import Adapter from 'enzyme-adapter-react-16'
 
-import ${1} from './${1}';
+import ${1} from './${1}'
 
 
-configure({ adapter: new Adapter() });
+configure({ adapter: new Adapter() })
 
 describe('${1:${TM_FILEPATH/(.*\/.*)(\/)(.*)(\/.*js)/$3/g}${2}}', () => {
   it('clicks', () => {
-    const onClick = jest.fn(() => {});
+    const onClick = jest.fn(() => {})
 
     const component = mount(
       <${1}
@@ -20,15 +20,15 @@ describe('${1:${TM_FILEPATH/(.*\/.*)(\/)(.*)(\/.*js)/$3/g}${2}}', () => {
       >
         Click me!
       </${1}>
-    );
+    )
 
-    component.simulate('click');
+    component.simulate('click')
 
-    expect(component.text()).toEqual('Click me!');
-    expect(component.hasClass('testClassName')).toEqual(true);
-    expect(onClick).toHaveBeenCalled();
-  });
-});
+    expect(component.text()).toEqual('Click me!')
+    expect(component.hasClass('testClassName')).toEqual(true)
+    expect(onClick).toHaveBeenCalled()
+  })
+})
 
 ]]></content>
   <tabTrigger>jest</tabTrigger>

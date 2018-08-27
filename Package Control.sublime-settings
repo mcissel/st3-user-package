@@ -11,6 +11,7 @@
 		"All Autocomplete",
 		"Babel",
 		"Boxy Theme",
+		"Case Conversion",
 		"Color Highlighter",
 		"ColorSchemeEditor",
 		"Colorsublime",
@@ -33,12 +34,17 @@
 		"SCSS",
 		"ShellCommand",
 		"SideBarEnhancements",
+		"StandardFormat",
 		"SublimeLinter",
 		"SublimeLinter-contrib-sass-lint",
+		"SublimeLinter-contrib-standard",
 		"SublimeLinter-eslint",
 		"Text Pastry",
 		"TrailingSpaces",
-		"TypeScript",
 		"Vintageous"
+	],
+	"repositories":
+	[
+		"https://github.com/francescarpi/RelativeLineNumbers"
 	]
 }

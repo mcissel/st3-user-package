@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-console.log(`%c${1:this}`, 'background:#ffd040; color:#222;');
+console.log(`%c${1:this}`, 'background:#ffd040; color:#222;')
 ]]></content>
   <tabTrigger>yconl</tabTrigger>
 </snippet>

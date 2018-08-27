@@ -1,16 +1,16 @@
 <snippet>
   <content><![CDATA[
-import React from 'react';
-import { storiesOf } from '@storybook/react';
-import { action } from '@storybook/addon-actions';
-import { withKnobs, text, boolean } from '@storybook/addon-knobs/react';
-import { setOptions } from '@storybook/addon-options';
-import { withInfo } from '@storybook/addon-info';
+import React from 'react'
+import { storiesOf } from '@storybook/react'
+import { action } from '@storybook/addon-actions'
+import { withKnobs, text, boolean } from '@storybook/addon-knobs/react'
+import { setOptions } from '@storybook/addon-options'
+import { withInfo } from '@storybook/addon-info'
 
-import ${1} from './${1}';
+import ${1} from './${1}'
 
 
-setOptions({ addonPanelInRight: true });
+setOptions({ addonPanelInRight: true })
 
 storiesOf('${1:${TM_FILEPATH/(.*\/.*)(\/)(.*)(\/.*js)/$3/g}${2}}', module)
   .addDecorator(withKnobs)
@@ -28,9 +28,9 @@ storiesOf('${1:${TM_FILEPATH/(.*\/.*)(\/)(.*)(\/.*js)/$3/g}${2}}', module)
         <${1}>
 
         </${1}>
-      );
+      )
     }),
-  );
+  )
 
 ]]></content>
   <tabTrigger>stories</tabTrigger>
