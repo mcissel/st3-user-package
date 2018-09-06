@@ -6,6 +6,9 @@
         "dist/*",
         "node_modules/*"
       ]
+    },
+    "stylelint": {
+      "selector": "source.css - meta.attribute-with-value, source.sass, source.scss, source.postcss"
     }
   }
 }
