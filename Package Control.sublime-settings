@@ -39,6 +39,8 @@
 		"SublimeLinter-contrib-sass-lint",
 		"SublimeLinter-contrib-standard",
 		"SublimeLinter-eslint",
+		"SublimeLinter-stylelint",
+		"Syntax Highlighting for PostCSS",
 		"Text Pastry",
 		"TrailingSpaces",
 		"Vintageous"

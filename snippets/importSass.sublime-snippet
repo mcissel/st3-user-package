@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-@import "${1}.scss"
+@import '${1}.scss'
 ]]></content>
   <tabTrigger>imp</tabTrigger>
   <scope>source.sass</scope>

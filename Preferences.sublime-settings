@@ -50,8 +50,7 @@
 		"ColorSchemeEditor",
 		"has-prefix",
 		"SCSS",
-		"Vintage",
-		"has-prefix"
+		"Vintage"
 	],
 	"line_padding_bottom": 0,
 	"line_padding_top": 1,
@@ -87,12 +86,7 @@
 	"theme_tab_width_auto": true,
 	"theme_unified": true,
 	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
 	"vintageous_use_ctrl_keys": true,
-	"//": ["lol"],
-
-  // Set to true to removing trailing white space on save
-  "trim_trailing_white_space_on_save": true,
-
-	// Characters that are considered to separate words ($ removed)
-	"word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?",
+	"word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?"
 }
