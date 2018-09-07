@@ -91,6 +91,8 @@
 	"//": ["lol"],
 
   // Set to true to removing trailing white space on save
-  "trim_trailing_white_space_on_save": true
+  "trim_trailing_white_space_on_save": true,
 
+	// Characters that are considered to separate words ($ removed)
+	"word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?",
 }
