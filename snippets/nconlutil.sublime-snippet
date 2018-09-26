@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+${1:const util = require('util')}
+console.log('\x1b[31m%s\x1b[0m', util.inspect(${2:this}, { showHidden: false, depth: 7 }))
+]]></content>
+  <tabTrigger>nuconl</tabTrigger>
+</snippet>
