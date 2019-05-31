@@ -7,6 +7,9 @@
         "node_modules/*"
       ]
     },
+    "standard": {
+      "disable": true
+    },
     "stylelint": {
       "selector": "source.css - meta.attribute-with-value, source.sass, source.scss, source.postcss"
     }

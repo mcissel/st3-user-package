@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
 componentDidCatch (error, info) {
-  this.setState({ hasError: true })
-  console.error(error, info)
+  this.setState({ hasError: true });
+  console.error(error, info);
 
   ${0}
 }

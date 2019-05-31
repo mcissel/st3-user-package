@@ -1,26 +1,32 @@
 <snippet>
   <content><![CDATA[
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
+import PropTypes from 'prop-types';
+import classNames from 'classnames';
 
-import styles from './${1}.module.scss'
+import { withStyles } from '@material-ui/core/styles';
 
+const styles = theme => ({
+  container: {
+    backgroundColor: theme.palette.background.default,
+  },
+});
 
-const ${1:${TM_FILENAME/(.+)\..+/$1/}} = ({ $2 }) => (
-  <div>
+const ${1:${TM_FILENAME/(.+)\..+/$1/}} = ({ classes, $2 }) => (
+  <div className={classes.container}>
   </div>
-)
+);
 
 ${1}.defaultProps = {
 
-}
+};
 
 ${1}.propTypes = {
   /** Docgen prop description */
 
-}
+};
 
-export default $1
+export default withStyles(styles)($1);
 
 ]]></content>
   <tabTrigger>reactstateless</tabTrigger>

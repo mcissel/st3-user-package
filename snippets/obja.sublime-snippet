@@ -1,7 +1,9 @@
 <snippet>
   <content><![CDATA[
-console.log('\x1b[31m%s\x1b[0m', '${1:this}')
+Object.assign(${1:window}, {
+  ${2},
+});
 ]]></content>
-  <tabTrigger>nconl</tabTrigger>
+  <tabTrigger>obja</tabTrigger>
   <scope>source.js</scope>
 </snippet>

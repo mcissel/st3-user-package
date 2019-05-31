@@ -3,4 +3,5 @@
 console.log(${1:this})
 ]]></content>
   <tabTrigger>conl</tabTrigger>
+  <scope>source.js</scope>
 </snippet>

@@ -100,6 +100,88 @@
 			{
 				"args":
 				{
+					"text": "i1oo"
+				},
+				"command": "text_pastry_step",
+				"text": "i1oo"
+			},
+			"key": "a044f363165a1c274e2f35795199423a",
+			"label": "i1oo"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "100",
+					"step": "5",
+					"stop": "200"
+				},
+				"command": "text_pastry_range",
+				"text": "range 100 200 5"
+			},
+			"key": "091e18d7d6899861f4641ec09bf733aa",
+			"label": "range 100 200 5"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "100",
+					"step": "20",
+					"stop": "200"
+				},
+				"command": "text_pastry_range",
+				"text": "range 100 200 20"
+			},
+			"key": "32c52b951a921740ac25f039b5e99613",
+			"label": "range 100 200 20"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "0"
+				},
+				"command": "text_pastry_step",
+				"text": "0"
+			},
+			"key": "cfcd208495d565ef66e7dff9f98764da",
+			"label": "0"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "0 12 2"
+				},
+				"command": "text_pastry_step",
+				"text": "0 12 2"
+			},
+			"key": "5c5f8aef64148818ee9c96715b963929",
+			"label": "0 12 2"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "0 2"
+				},
+				"command": "text_pastry_step",
+				"text": "0 2"
+			},
+			"key": "60cf4244829876c1beff39a7025023b5",
+			"label": "0 2"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
 					"text": "1"
 				},
 				"command": "text_pastry_step",
