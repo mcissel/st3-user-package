@@ -116,5 +116,6 @@
       "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
     }
   },
+  { "keys": ["ctrl+alt+q"], "command": "jsdoc_param" },
   { "keys": ["alt+y"], "command": "ffp_show_context" }
 ]
