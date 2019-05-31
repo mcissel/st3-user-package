@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-console.warn(${1:this})
+console.warn(${1:this});
 ]]></content>
   <tabTrigger>conw</tabTrigger>
   <scope>source.js</scope>

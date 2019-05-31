@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-console.log(`%c${1:this}`, 'background:blue; color:white;')
+console.log(`%c${1:this}`, 'background:blue; color:white;');
 ]]></content>
   <tabTrigger>bconl</tabTrigger>
   <scope>source.js</scope>
