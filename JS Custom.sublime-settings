@@ -1,0 +1,14 @@
+{
+    "configurations": {
+        "Default": {},
+        "React": {
+            "file_extensions": [ "js", "jsx" ],
+            "flow_types": true,
+            "jsx": true,
+            "string_object_keys": true,
+            "custom_templates": {
+                "styled_components": true,
+            }
+        }
+    }
+}
