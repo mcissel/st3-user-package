@@ -182,6 +182,72 @@
 			{
 				"args":
 				{
+					"text": "1 31"
+				},
+				"command": "text_pastry_step",
+				"text": "1 31"
+			},
+			"key": "81f65c15517b14a88cce4c3778b80227",
+			"label": "1 31"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "31"
+				},
+				"command": "text_pastry_step",
+				"text": "31"
+			},
+			"key": "c16a5320fa475530d9583c34fd356ef5",
+			"label": "31"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "1",
+					"stop": "31"
+				},
+				"command": "text_pastry_range",
+				"text": "range 1 31"
+			},
+			"key": "b73cac9d6541e48efcd6ceafb385d427",
+			"label": "range 1 31"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 12"
+				},
+				"command": "text_pastry_step",
+				"text": "1 12"
+			},
+			"key": "845038c59b924f430d7b61a11271eaee",
+			"label": "1 12"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "12"
+				},
+				"command": "text_pastry_step",
+				"text": "12"
+			},
+			"key": "c20ad4d76fe97759aa27a0c99bff6710",
+			"label": "12"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
 					"text": "1"
 				},
 				"command": "text_pastry_step",

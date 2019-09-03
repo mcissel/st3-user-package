@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+const ${1} = useRef(${2});
+]]></content>
+  <tabTrigger>usrf</tabTrigger>
+  <scope>source.js</scope>
+</snippet>
