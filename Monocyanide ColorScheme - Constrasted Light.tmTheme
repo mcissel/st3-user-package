@@ -606,14 +606,27 @@
         <key>fontStyle</key>
         <string></string>
         <key>foreground</key>
-        <string>#AEE837</string>
+        <string>#66D9EF</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>JS: Function Name</string>
+      <key>scope</key>
+      <string>meta.property.object.js</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string></string>
+        <key>foreground</key>
+        <string>#FFFFFF</string>
       </dict>
     </dict>
     <dict>
       <key>name</key>
       <string>JS: Blocks</string>
       <key>scope</key>
-      <string>punctuation.section.block.begin.js, punctuation.section.group.begin.js, punctuation.section.block.end.js, punctuation.section.group.end.js, punctuation.definition.interpolation.begin.js, punctuation.definition.interpolation.end.js, punctuation.terminator.statement.js, punctuation.section.interpolation.begin.js, punctuation.section.interpolation.end.js</string>
+      <string>punctuation.section.block.begin.js, punctuation.section.group.begin.js, punctuation.section.block.end.js, punctuation.section.group.end.js, punctuation.definition.interpolation.begin.js, punctuation.definition.interpolation.end.js, punctuation.terminator.statement.js, punctuation.section.interpolation.begin.js, punctuation.section.interpolation.end.js, punctuation.section.brackets.begin.js, punctuation.section.brackets.end.js</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
@@ -808,8 +821,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#ff4088</string>
-				<key>fontStyle</key>
-				<string> bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -854,8 +865,6 @@
 			<string>meta.other.inherited-class.php</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string> bold  italic</string>
 				<key>foreground</key>
 				<string>#66d9ef</string>
 			</dict>
@@ -869,8 +878,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#66d9ef</string>
-				<key>fontStyle</key>
-				<string> bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -882,8 +889,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#aee837</string>
-				<key>fontStyle</key>
-				<string> bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -895,8 +900,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#66d9ef</string>
-				<key>fontStyle</key>
-				<string> bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -908,8 +911,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#ffffff</string>
-				<key>fontStyle</key>
-				<string> bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1162,8 +1163,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#ffc140</string>
-				<key>fontStyle</key>
-				<string> bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1175,8 +1174,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#aee837</string>
-				<key>fontStyle</key>
-				<string> bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1188,8 +1185,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#aee837</string>
-				<key>fontStyle</key>
-				<string> bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1958,17 +1953,6 @@
 				<string>#ffef64</string>
 				<key>fontStyle</key>
 				<string></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Method call</string>
-			<key>scope</key>
-			<string>meta.function-call - punctuation - meta.function-call.arguments - variable</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string> bold</string>
 			</dict>
 		</dict>
 		<dict>
