@@ -117,5 +117,7 @@
     }
   },
   { "keys": ["ctrl+alt+q"], "command": "jsdoc_param" },
-  { "keys": ["alt+y"], "command": "ffp_show_context" }
+  { "keys": ["alt+y"], "command": "ffp_show_context" },
+
+  { "keys": ["ctrl+shift+f12"], "command": "edit_current_color_scheme"},
 ]

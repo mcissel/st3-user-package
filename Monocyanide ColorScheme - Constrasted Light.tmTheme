@@ -596,19 +596,58 @@
 				<string>#ffa940</string>
 			</dict>
 		</dict>
-		<dict>
-			<key>name</key>
-			<string>JS: Function Name</string>
-			<key>scope</key>
-			<string>meta.function.js, entity.name.function.js, support.function.dom.js</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#AEE837</string>
-			</dict>
-		</dict>
+    <dict>
+      <key>name</key>
+      <string>JS: Function Name</string>
+      <key>scope</key>
+      <string>meta.function.js, entity.name.function.js, support.function.dom.js</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string></string>
+        <key>foreground</key>
+        <string>#AEE837</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>JS: Blocks</string>
+      <key>scope</key>
+      <string>punctuation.section.block.begin.js, punctuation.section.group.begin.js, punctuation.section.block.end.js, punctuation.section.group.end.js, punctuation.definition.interpolation.begin.js, punctuation.definition.interpolation.end.js, punctuation.terminator.statement.js, punctuation.section.interpolation.begin.js, punctuation.section.interpolation.end.js</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string></string>
+        <key>foreground</key>
+        <string>#FFFFFF</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>JS: Blocks</string>
+      <key>scope</key>
+      <string>punctuation.section.interpolation.begin.js, punctuation.section.interpolation.end.js</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string></string>
+        <key>foreground</key>
+        <string>#BE84FF</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>JS: Text</string>
+      <key>scope</key>
+      <string>meta.jsx.js</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string></string>
+        <key>foreground</key>
+        <string>#FFFFFF</string>
+      </dict>
+    </dict>
 		<dict>
 			<key>name</key>
 			<string>JS: Storage Type</string>
