@@ -722,6 +722,17 @@
 				<string>#FFE204</string>
 			</dict>
 		</dict>
+    <dict>
+      <key>name</key>
+      <string>JSON: String</string>
+      <key>scope</key>
+      <string>string.quoted.other.js punctuation.definition.string.begin.js, string.quoted.other.js punctuation.definition.string.end.js</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#BE84FF</string>
+      </dict>
+    </dict>
 		<dict>
 			<key>name</key>
 			<string>JS: ()</string>

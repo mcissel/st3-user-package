@@ -6,6 +6,7 @@
             "flow_types": true,
             "jsx": true,
             "string_object_keys": true,
+            "eslint_directives": true,
             "custom_templates": {
                 "styled_components": true,
             }

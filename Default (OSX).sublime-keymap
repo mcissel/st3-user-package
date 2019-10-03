@@ -120,4 +120,6 @@
   { "keys": ["alt+y"], "command": "ffp_show_context" },
 
   { "keys": ["ctrl+shift+f12"], "command": "edit_current_color_scheme"},
+
+  { "keys": ["f5"], "command": "sort_lines", "args": {"case_sensitive": false} },
 ]

@@ -1,8 +1,9 @@
 <snippet>
   <content><![CDATA[
-export default ${TM_FILENAME/(.+)\..+/$1/};
-${1}
+const ${1} = styled.${2:div}`
+  ${3}
+`;
 ]]></content>
-  <tabTrigger>expd</tabTrigger>
+  <tabTrigger>styc</tabTrigger>
   <scope>source.js</scope>
 </snippet>

@@ -13,7 +13,7 @@
 
       "replace_on_insert": [
         ["\\.js$", ""],           // after insertion, remove .js from path
-        ["/src/", ""],
+        ["/src/", "@"],
         ["([^.])\\/index$", "\\1"],     // nodejs will load index.js by default => also remove index
       ],
     },

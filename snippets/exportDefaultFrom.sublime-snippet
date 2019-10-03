@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+export { default } from '.${1:${TM_FILEPATH/(.*\/.*)(\/.*)(\/.*js)/$2/g}${2}}';
+
+]]></content>
+  <tabTrigger>expdf</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

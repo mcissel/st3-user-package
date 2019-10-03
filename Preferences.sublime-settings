@@ -43,7 +43,7 @@
 		".idea"
 	],
 	"font_face": "Operator Mono",
-	"font_size": 14,
+	"font_size": 13,
 	"gpu_window_buffer": "true",
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
