@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+useLayoutEffect(() => {
+  ${2}
+}, ${1:[]});
+]]></content>
+  <tabTrigger>usle</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

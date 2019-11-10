@@ -26,6 +26,7 @@
 		"Format JSDoc @params",
 		"FuzzyFilePath",
 		"GitGutter",
+		"GraphQL",
 		"Handlebars",
 		"JSCustom",
 		"JsPrettier",
