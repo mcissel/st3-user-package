@@ -5,5 +5,5 @@ const ${1} = useCallback(() => {
 }, ${2:[]});
 ]]></content>
   <tabTrigger>usc</tabTrigger>
-  <scope>source.js</scope>
+  <scope>source.js, source.tsx</scope>
 </snippet>

@@ -8,6 +8,6 @@ componentDidCatch (error, info) {
 }
 ]]></content>
     <tabTrigger>cdc</tabTrigger>
-    <scope>source.js</scope>
+    <scope>source.js, source.tsx</scope>
     <description>React: componentDidCatch() {…}</description>
 </snippet>

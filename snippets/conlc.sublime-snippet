@@ -3,5 +3,5 @@
 console.log(`%c${1:this}`, 'background:${2:pink}; color:black;'${3});
 ]]></content>
   <tabTrigger>cconl</tabTrigger>
-  <scope>source.js</scope>
+  <scope>source.js, source.tsx</scope>
 </snippet>

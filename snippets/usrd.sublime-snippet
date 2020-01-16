@@ -3,5 +3,5 @@
 useReducer(${1});
 ]]></content>
   <tabTrigger>usrd</tabTrigger>
-  <scope>source.js</scope>
+  <scope>source.js, source.tsx</scope>
 </snippet>

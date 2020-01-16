@@ -5,5 +5,5 @@ useEffect(() => {
 }, ${1:[]});
 ]]></content>
   <tabTrigger>use</tabTrigger>
-  <scope>source.js</scope>
+  <scope>source.js, source.tsx</scope>
 </snippet>

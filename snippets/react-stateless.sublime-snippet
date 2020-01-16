@@ -30,5 +30,5 @@ export default withStyles(styles)($1);
 
 ]]></content>
   <tabTrigger>reactstateless</tabTrigger>
-  <scope>source.js</scope>
+  <scope>source.js, source.tsx</scope>
 </snippet>

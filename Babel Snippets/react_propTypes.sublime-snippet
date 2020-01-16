@@ -6,6 +6,6 @@ ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}.PropTypes = {
 };
 ]]></content>
     <tabTrigger>pt</tabTrigger>
-    <scope>source.js</scope>
+    <scope>source.js, source.tsx</scope>
     <description>prop-types: PropTypes { ... }</description>
 </snippet>

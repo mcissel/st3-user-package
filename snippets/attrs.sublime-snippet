@@ -5,5 +5,5 @@ attrs((props) => ({
 }))``;
 ]]></content>
   <tabTrigger>attrs</tabTrigger>
-  <scope>source.js</scope>
+  <scope>source.js, source.tsx</scope>
 </snippet>

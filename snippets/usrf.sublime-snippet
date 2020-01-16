@@ -3,5 +3,5 @@
 const ${1} = useRef(${2});
 ]]></content>
   <tabTrigger>usrf</tabTrigger>
-  <scope>source.js</scope>
+  <scope>source.js, source.tsx</scope>
 </snippet>

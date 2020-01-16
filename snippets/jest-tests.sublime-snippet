@@ -32,5 +32,5 @@ describe('${1:${TM_FILEPATH/(.*\/.*)(\/)(.*)(\/.*js)/$3/g}${2}}', () => {
 
 ]]></content>
   <tabTrigger>jest</tabTrigger>
-  <scope>source.js</scope>
+  <scope>source.js, source.tsx</scope>
 </snippet>

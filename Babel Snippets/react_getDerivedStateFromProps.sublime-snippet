@@ -5,6 +5,6 @@ static getDerivedStateFromProps(nextProps, prevState) {
 }
 ]]></content>
     <tabTrigger>getd</tabTrigger>
-    <scope>source.js</scope>
+    <scope>source.js, source.tsx</scope>
     <description>React: getDerivedStateFromProps() {…}</description>
 </snippet>

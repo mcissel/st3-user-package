@@ -37,5 +37,5 @@ export default connect(mapStateToProps, actionCreators)($1);
 
 ]]></content>
   <tabTrigger>redux</tabTrigger>
-  <scope>source.js</scope>
+  <scope>source.js, source.tsx</scope>
 </snippet>
