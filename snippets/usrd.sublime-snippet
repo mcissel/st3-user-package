@@ -1,7 +1,12 @@
 <snippet>
   <content><![CDATA[
-useReducer(${1});
+const [${1:state}, dispatch] = useReducer(
+  ${2:reducer},
+  ${3:initialState},
+);
 ]]></content>
   <tabTrigger>usrd</tabTrigger>
-  <scope>source.js, source.tsx</scope>
+  <scope>source.js, source.tsx, source.ts</scope>
 </snippet>
+
+

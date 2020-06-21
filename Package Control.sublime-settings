@@ -9,7 +9,6 @@
 		"A File Icon",
 		"AdvancedNewFile",
 		"All Autocomplete",
-		"Block Cursor Everywhere",
 		"Boxy Theme",
 		"Case Conversion",
 		"Color Highlighter",
@@ -28,10 +27,12 @@
 		"GitGutter",
 		"GraphQL",
 		"Handlebars",
+		"ImportJS",
 		"JSCustom",
 		"JsPrettier",
 		"Liquid",
 		"MarkdownLivePreview",
+		"NeoVintageous",
 		"Package Control",
 		"PackageResourceViewer",
 		"Paste as Column",
@@ -42,7 +43,6 @@
 		"ShellCommand",
 		"SideBarEnhancements",
 		"Siteleaf Liquid Syntax",
-		"StandardFormat",
 		"SublimeLinter",
 		"SublimeLinter-contrib-sass-lint",
 		"SublimeLinter-contrib-standard",
@@ -50,9 +50,9 @@
 		"SublimeLinter-stylelint",
 		"Syntax Highlighting for PostCSS",
 		"Text Pastry",
+		"Toggle Words",
 		"TrailingSpaces",
-		"TypeScript",
-		"Vintageous"
+		"TypeScript"
 	],
 	"repositories":
 	[

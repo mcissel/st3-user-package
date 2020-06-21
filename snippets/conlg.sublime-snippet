@@ -3,5 +3,5 @@
 console.log(`%c${1:this}`, 'background:#bada55; color:#222;');
 ]]></content>
   <tabTrigger>gconl</tabTrigger>
-  <scope>source.js, source.tsx</scope>
+  <scope>source.js, source.tsx, source.ts</scope>
 </snippet>

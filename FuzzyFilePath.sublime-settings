@@ -1,8 +1,14 @@
 {
-  "base_directory": "imports/",
   "log": true,
-  "exclude_folders": ["node_modules", "bower_components"],
+  "exclude_folders": ["node_modules", "bower_components", "dist"],
   "scopes": [
+    {
+      "scope": ".",
+      "auto": true,
+      "base_directory": false,
+      // add your extensions here:
+      "extensions": ["tsx, ts"]
+    },
     {
       "scope": "\\.js",
       "base_directory": true,

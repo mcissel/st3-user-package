@@ -3,5 +3,5 @@
 console.error(${1:this});
 ]]></content>
   <tabTrigger>cone</tabTrigger>
-  <scope>source.js, source.tsx</scope>
+  <scope>source.js, source.tsx, source.ts</scope>
 </snippet>

@@ -5,5 +5,5 @@ Object.assign(${1:window}, {
 });
 ]]></content>
   <tabTrigger>obja</tabTrigger>
-  <scope>source.js, source.tsx</scope>
+  <scope>source.js, source.tsx, source.ts</scope>
 </snippet>

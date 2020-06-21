@@ -255,15 +255,32 @@
 			},
 			"key": "865c0c0b4ab0e063e5caa3387c1a8741",
 			"label": "i"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "12",
+					"step": "2",
+					"stop": "36"
+				},
+				"command": "text_pastry_range",
+				"text": "range 12 36 2"
+			},
+			"key": "fddb01ba200219ba28c98712fab7af6b",
+			"label": "range 12 36 2"
 		}
 	],
 	"last_command":
 	{
 		"args":
 		{
-			"text": "1"
+			"start": "12",
+			"step": "2",
+			"stop": "36"
 		},
-		"command": "text_pastry_step",
-		"text": "i"
+		"command": "text_pastry_range",
+		"text": "range 12 36 2"
 	}
 }

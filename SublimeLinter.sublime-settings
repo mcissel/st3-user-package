@@ -4,14 +4,25 @@
     "eslint": {
       "excludes": [
         "dist/*",
+        "build/*",
         "node_modules/*"
       ]
-    },
-    "standard": {
-      "disable": true
     },
     "stylelint": {
       "selector": "source.css - meta.attribute-with-value, source.sass, source.scss, source.postcss"
     }
-  }
+  },
+  // Demote the visibility of a class off errors while you're editing.
+  // The errors will re-appear after `time_to_idle` and immediately on save.
+  // - ws_only: erroneous regions that contain only whitespace
+  // - some_ws: erroneous regions that contain *some* whitespace
+  // - multilines: multiline errors
+  // - warnings: errors of the "warning" type
+  // - all: demote all the things
+  // - none: disable this feature
+  "highlights.demote_while_editing": "all",
+
+  // Apply a color (via scope) to the demoted errors.
+  // E.g. "" will hide the errors, "comment" is usually a subtle color.
+  "highlights.demote_scope": "comment",
 }

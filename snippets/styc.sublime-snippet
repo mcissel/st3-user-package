@@ -5,5 +5,5 @@ const ${1} = styled.${2:div}`
 `;
 ]]></content>
   <tabTrigger>styc</tabTrigger>
-  <scope>source.js, source.tsx</scope>
+  <scope>source.js, source.tsx, source.ts</scope>
 </snippet>

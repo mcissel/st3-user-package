@@ -3,5 +3,5 @@
 console.log(`%c${1:this}`, 'color: #221; background: #F40;padding: 2px 8px; font-weight: bold');
 ]]></content>
   <tabTrigger>rconl</tabTrigger>
-  <scope>source.js, source.tsx</scope>
+  <scope>source.js, source.tsx, source.ts</scope>
 </snippet>

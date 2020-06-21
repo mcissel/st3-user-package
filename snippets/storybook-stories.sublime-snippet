@@ -34,5 +34,5 @@ storiesOf('${1:${TM_FILEPATH/(.*\/.*)(\/)(.*)(\/.*js)/$3/g}${2}}', module)
 
 ]]></content>
   <tabTrigger>stories</tabTrigger>
-  <scope>source.js, source.tsx</scope>
+  <scope>source.js, source.tsx, source.ts</scope>
 </snippet>

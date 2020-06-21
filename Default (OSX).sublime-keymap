@@ -6,8 +6,13 @@
   { "keys": ["super+'"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
   { "keys": ["super+shift+o"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
   { "keys": ["super+r"], "command": "noop" },
+  // ⌘ ⌥ n - new file
   { "keys": ["super+option+n"], "command": "advanced_new_file_new"},
+  // ⌘ ⌥ p - text pastry
   { "keys": ["super+option+p"], "command": "text_pastry_show_command_line", "args": { "text": "" } },
+  // ⌘ ⌥ c - copy path
+  { "keys": ["super+shift+c"], "command": "side_bar_copy_path_absolute_from_project_encoded" },
+
   { "keys": ["shift+f2"], "command": "rename_file", "args": { "paths": ["$file"] } },
 
   { "keys": ["super+shift+r"], "command": "reveal_in_side_bar"},
@@ -38,8 +43,6 @@
       "keys": ["f2"],
       "command": "side_bar_rename"
   },
-
-  { "keys": ["super+shift+c"], "command": "side_bar_copy_path_absolute_from_project_encoded" },
 
   { "keys": ["/"], "command": "close_tag", "args": { "insert_slash": true }, "context":
     [
